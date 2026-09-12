@@ -57,8 +57,8 @@ export function Footer() {
                   Baku, AZ1000,<br/>
                   Azerbaijan
                 </li>
-                <li><a href="tel:+994503806566" className="text-[13px] text-white font-medium hover:text-brand-primary transition-colors uppercase">+994 50 380 65 66</a></li>
-                <li><a href="mailto:seasentry.tech@gmail.com" className="text-[13px] text-white font-medium hover:text-brand-primary transition-colors uppercase">seasentry.tech@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" className="text-[13px] text-white font-medium hover:text-brand-primary transition-colors uppercase">LinkedIn</a></li>
+                <li><a href="mailto:seasentry.tech@gmail.com" className="text-[13px] text-white font-medium hover:text-brand-primary transition-colors lowercase">seasentry.tech@gmail.com</a></li>
               </ul>
             </div>
 

@@ -35,7 +35,7 @@ export function Footer() {
               <ul className="space-y-4">
                 <li><a href="#hero" className="text-[13px] text-white font-medium hover:text-brand-primary transition-colors uppercase">About Us</a></li>
                 <li><a href="#team" className="text-[13px] text-white font-medium hover:text-brand-primary transition-colors uppercase">Team</a></li>
-                <li><a href="mailto:seasentry@gmail.com" className="text-[13px] text-white font-medium hover:text-brand-primary transition-colors uppercase">Contact Us</a></li>
+                <li><a href="mailto:seasentry.tech@gmail.com" className="text-[13px] text-white font-medium hover:text-brand-primary transition-colors uppercase">Contact Us</a></li>
               </ul>
             </div>
 
@@ -58,7 +58,7 @@ export function Footer() {
                   Azerbaijan
                 </li>
                 <li><a href="tel:+994503806566" className="text-[13px] text-white font-medium hover:text-brand-primary transition-colors uppercase">+994 50 380 65 66</a></li>
-                <li><a href="mailto:seasentry@gmail.com" className="text-[13px] text-white font-medium hover:text-brand-primary transition-colors uppercase">seasentry@gmail.com</a></li>
+                <li><a href="mailto:seasentry.tech@gmail.com" className="text-[13px] text-white font-medium hover:text-brand-primary transition-colors uppercase">seasentry.tech@gmail.com</a></li>
               </ul>
             </div>
 

@@ -27,7 +27,10 @@ export function Navigation() {
                 src="/logo.png" 
                 alt="SeaSentry Logo" 
                 className="h-full w-auto object-contain transition-all duration-300" 
-                style={!scrolled ? { filter: 'brightness(0) invert(1)' } : { filter: 'drop-shadow(0 0 1px rgba(0,0,0,0.1))' }} 
+                style={scrolled 
+                  ? { filter: 'drop-shadow(0 3px 8px rgba(0, 31, 78, 0.25))' } 
+                  : { filter: 'drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5))' }
+                } 
               />
             </div>
           </div>

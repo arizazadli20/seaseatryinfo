@@ -11,12 +11,12 @@ export function Footer() {
           {/* Left Column - Logo & Tagline */}
           <div className="flex flex-col justify-between lg:w-1/3 items-center lg:items-start text-center lg:text-left">
             <div className="mb-12 lg:mb-0">
-              <div className="h-10 inline-block mb-8">
+              <div className="h-12 inline-block mb-8">
                 <img 
                   src="/logo.png" 
                   alt="SeaSentry Logo" 
                   className="h-full w-auto object-contain" 
-                  style={{ filter: 'brightness(0) invert(1)' }} 
+                  style={{ filter: 'drop-shadow(0 2px 8px rgba(0, 0, 0, 0.4))' }} 
                 />
               </div>
               <p className="text-[11px] text-gray-400 font-medium tracking-wide leading-relaxed uppercase">

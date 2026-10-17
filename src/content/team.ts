@@ -30,20 +30,13 @@ export const teamMembers: TeamMember[] = [
   },
   {
     id: "4",
-    name: "Aytaj Sadigova",
-    role: "Researcher",
-    responsibility: "Data and environmental research.",
-    photoUrl: "/team/aytaj.png"
-  },
-  {
-    id: "5",
     name: "Rufat Jabrailli",
     role: "Chemical Engineer",
     responsibility: "Sorbent and materials research.",
     photoUrl: "/team/rufat.png"
   },
   {
-    id: "6",
+    id: "5",
     name: "Shikhi Ibrahimov",
     role: "Full Stack Developer",
     responsibility: "End-to-end system development.",

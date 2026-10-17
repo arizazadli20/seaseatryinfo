@@ -15,25 +15,22 @@ export function Navigation() {
     <>
       <nav className={`fixed top-0 left-0 right-0 z-50 w-full transition-all duration-300 ${
         scrolled 
-          ? 'bg-white/95 backdrop-blur-md border-b border-gray-200 shadow-sm' 
+          ? 'bg-[#0B1121]/85 backdrop-blur-md border-b border-white/10 shadow-lg' 
           : 'bg-transparent border-b border-transparent'
       }`}>
         <div className="w-full px-[20px] md:px-6 h-[56px] md:h-20 flex items-center justify-center max-w-7xl mx-auto">
           
-          <div className="flex items-center">
+          <a href="#hero" className="flex items-center" aria-label="SeaSentry Home">
             {/* Full Logo */}
-            <div className="h-12 md:h-14 transition-all duration-300">
+            <div className="h-11 md:h-14 transition-all duration-300">
               <img 
                 src="/logo.png" 
                 alt="SeaSentry Logo" 
                 className="h-full w-auto object-contain transition-all duration-300" 
-                style={scrolled 
-                  ? { filter: 'drop-shadow(0 3px 8px rgba(0, 31, 78, 0.25))' } 
-                  : { filter: 'drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5))' }
-                } 
+                style={{ filter: 'drop-shadow(0 2px 8px rgba(0, 0, 0, 0.4))' }} 
               />
             </div>
-          </div>
+          </a>
 
         </div>
       </nav>

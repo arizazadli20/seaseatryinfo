@@ -60,7 +60,12 @@ function App() {
         
         {/* Sticky Bottom Bar for Mobile CTA */}
         <div ref={stickyBarRef} className="md:hidden fixed bottom-0 left-0 right-0 p-4 bg-white/90 backdrop-blur-md border-t border-gray-100 z-50 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.05)] pb-[max(1rem,env(safe-area-inset-bottom))]">
-          <a href={siteCopy.global.demoUrl} className="flex items-center justify-center w-full bg-brand-primary text-white font-medium py-3 rounded-full shadow-md active:scale-[0.97] transition-transform duration-150">
+          <a 
+            href={siteCopy.global.demoUrl} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="flex items-center justify-center w-full bg-brand-primary text-white font-medium py-3 rounded-full shadow-md active:scale-[0.97] transition-transform duration-150"
+          >
             Explore the demo
           </a>
         </div>

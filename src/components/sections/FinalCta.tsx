@@ -81,6 +81,8 @@ export function FinalCta() {
         <a 
           ref={btnRef}
           href={siteCopy.global.demoUrl} 
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-block border border-brand-primary/50 text-brand-primary font-medium px-8 py-3 rounded-full hover:bg-brand-primary/10 transition-colors duration-150 active:scale-[0.97]"
         >
           {siteCopy.livePlatform.cta}

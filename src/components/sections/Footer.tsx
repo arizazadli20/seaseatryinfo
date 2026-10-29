@@ -35,7 +35,7 @@ export function Footer() {
               <ul className="space-y-4">
                 <li><a href="#hero" className="text-[13px] text-white font-medium hover:text-brand-primary transition-colors uppercase">About Us</a></li>
                 <li><a href="#team" className="text-[13px] text-white font-medium hover:text-brand-primary transition-colors uppercase">Team</a></li>
-                <li><a href="mailto:seasentry.tech@gmail.com" className="text-[13px] text-white font-medium hover:text-brand-primary transition-colors uppercase">Contact Us</a></li>
+                <li><a href="mailto:seasentryspace@seasentry.space" className="text-[13px] text-white font-medium hover:text-brand-primary transition-colors uppercase">Contact Us</a></li>
               </ul>
             </div>
 
@@ -57,8 +57,8 @@ export function Footer() {
                   Baku, AZ1000,<br/>
                   Azerbaijan
                 </li>
-                <li><a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" className="text-[13px] text-white font-medium hover:text-brand-primary transition-colors uppercase">LinkedIn</a></li>
-                <li><a href="mailto:seasentry.tech@gmail.com" className="text-[13px] text-white font-medium hover:text-brand-primary transition-colors lowercase">seasentry.tech@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/company/seasentry.space/home/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="text-[13px] text-white font-medium hover:text-brand-primary transition-colors uppercase">LinkedIn</a></li>
+                <li><a href="mailto:seasentryspace@seasentry.space" className="text-[13px] text-white font-medium hover:text-brand-primary transition-colors lowercase">seasentryspace@seasentry.space</a></li>
               </ul>
             </div>
 
